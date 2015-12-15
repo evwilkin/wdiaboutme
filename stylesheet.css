@@ -1,0 +1,86 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 4em;
+    background: linear-gradient(top, rgba(144,195,212,1),rgba(0,0,0,0));
+    background: -moz-linear-gradient(top, rgba(144,195,212,1),rgba(0,0,0,0));
+    background: -webkit-linear-gradient(top, rgba(144,195,212,1), rgba(0,0,0,0));
+}
+
+article {
+  margin: 0 auto 10% auto;
+  max-width: 800px;
+}
+
+h1 {
+  display: inline;
+  padding-left: 20px;
+}
+
+img {
+  border-radius: 50%;
+  width: 300px;
+  max-height: 300px;
+}
+
+ul {
+  padding: 10px;
+  margin-top: -20px;
+}
+
+li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px 0 10px;
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #90C3D4;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 1.2em;
+  padding: 15px;
+}
+
+.bold {
+  color: #27667a;
+}
+
+.arrow {
+  display: inline;
+  height: 20px;
+  width: 20px;
+}
+
+#photographer {
+  border-radius: 5px;
+  width: 300px;
+  float: left;
+}
+
+@media (max-width: 500px) {
+  li {
+    display: block;
+    padding-bottom: 5px 0px;
+  }
+  #photographer {
+    width: 150px;
+  }
+}
+
+input {
+  border: solid red 2px;
+  padding: 10px;
+  font-size: 15px;
+}
